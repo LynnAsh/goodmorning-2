@@ -1,0 +1,45 @@
+html {
+    height: 100%;
+    width: 100%;
+
+    cursor: crosshair;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    color: azure;
+    background-color:black;
+}
+
+/* General table formatting */
+table, th, td {
+    border: 3px solid lightpink;
+    border-collapse: collapse;
+    background-color: rgb(39, 39, 39);
+    padding: 20px;
+}
+table {
+    margin: auto;
+}
+th {
+    font-size: 60px;
+}
+td, tr {
+    font-size: 20px;
+}
+
+/* Links */
+a {
+    color: lightpink;
+    cursor: crosshair;
+}
+a:link {
+    color:lightpink;
+}
+a:hover {
+    color: magenta;
+}
+a:active {
+    color: mediumorchid;
+}
